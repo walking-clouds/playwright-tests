@@ -11,8 +11,10 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    env:
-      SAUCE_PASSWORD: ${{ secrets.SAUCE_PASSWORD }}
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [chromium, firefox, webkit]
 
     steps:
       - name: Checkout repository
@@ -30,16 +32,16 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx bddgen && npx playwright test
+        run: npx bddgen && npx playwright test --project=${{ matrix.project }} --workers=4
         env:
           CI: true
-          SAUCE_PASSWORD: ${{ env.SAUCE_PASSWORD }}
+          SAUCE_PASSWORD: ${{ secrets.SAUCE_PASSWORD }}
 
       - name: Upload Playwright report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report
+          name: playwright-report-${{ matrix.project }}
           path: playwright-report/
           retention-days: 30
 
