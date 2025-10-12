@@ -1,0 +1,42 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome'",
+    "bdd:generate": "bddgen",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "ctrf:merge": "ctrf merge ctrf --output ctrf-merged.json",
+    "ctrf:generate-static": "ctrf generate ctrf/ctrf-report.json --static",
+    "clean": "rm -rf test-results playwright-report allure-results allure-report ctrf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/pretty-formatter": "^2.3.0",
+    "@playwright/test": "^1.56.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.56.0",
+    "playwright-bdd": "^8.4.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.10.0",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^3.4.1",
+    "playwright-ctrf-json-reporter": "^0.0.24"
+  }
+}
