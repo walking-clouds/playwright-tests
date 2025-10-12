@@ -30,7 +30,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx bddgen && npx playwright test
         env:
           CI: true
           SAUCE_PASSWORD: ${{ env.SAUCE_PASSWORD }}
