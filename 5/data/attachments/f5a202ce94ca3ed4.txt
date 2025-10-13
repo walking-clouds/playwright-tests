@@ -1,9 +1,0 @@
-[2025-10-13T00:47:16.499Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:47:17.645Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:47:17.743Z] STEP: Entering invalid username: invalid_user
-[2025-10-13T00:47:17.813Z] STEP: Entering invalid password: invalid_password
-[2025-10-13T00:47:17.861Z] STEP: Clicking login button
-[2025-10-13T00:47:17.958Z] STEP: Verifying invalid credentials error message
-[2025-10-13T00:47:17.983Z] ASSERT: Invalid credentials error message displayed - ✓ PASS
-[2025-10-13T00:47:17.984Z] STEP: Verifying user remains on login page
-[2025-10-13T00:47:18.015Z] ASSERT: User remains on login page - ✓ PASS

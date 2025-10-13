@@ -1,5 +1,0 @@
-[2025-10-13T00:48:16.448Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:48:17.554Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:48:17.613Z] STEP: Logging in as error user
-[2025-10-13T00:48:17.862Z] STEP: Verifying appropriate login result for error user
-[2025-10-13T00:48:17.875Z] ASSERT: error user login successful - ✓ PASS

@@ -1,0 +1,10 @@
+[2025-10-13T00:55:36.756Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:55:38.407Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:55:38.450Z] STEP: Adding "Sauce Labs Onesie" to cart
+[2025-10-13T00:55:38.520Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:55:38.557Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T00:55:38.559Z] STEP: Navigating to cart page
+[2025-10-13T00:55:38.664Z] STEP: Verifying "Sauce Labs Onesie" is in cart
+[2025-10-13T00:55:39.194Z] ASSERT: Sauce Labs Onesie is in cart - ✓ PASS
+[2025-10-13T00:55:39.201Z] STEP: Verifying correct price for "Sauce Labs Onesie"
+[2025-10-13T00:55:39.253Z] ASSERT: Correct price for Sauce Labs Onesie - ✓ PASS

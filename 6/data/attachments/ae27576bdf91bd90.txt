@@ -1,0 +1,12 @@
+[2025-10-13T00:57:21.332Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:57:23.091Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:57:23.145Z] STEP: Adding "Sauce Labs Backpack" to cart
+[2025-10-13T00:57:23.215Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:57:23.251Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T00:57:23.266Z] STEP: Verifying "Sauce Labs Backpack" shows "Remove" button
+[2025-10-13T00:57:23.277Z] ASSERT: Sauce Labs Backpack shows Remove button - ✓ PASS
+[2025-10-13T00:57:23.282Z] STEP: Navigating to cart page
+[2025-10-13T00:57:23.336Z] STEP: Verifying "Sauce Labs Backpack" is in cart
+[2025-10-13T00:57:23.849Z] ASSERT: Sauce Labs Backpack is in cart - ✓ PASS
+[2025-10-13T00:57:23.851Z] STEP: Verifying cart shows 1 item(s)
+[2025-10-13T00:57:23.854Z] ASSERT: Cart shows 1 item(s) - ✓ PASS

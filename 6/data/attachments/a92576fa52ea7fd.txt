@@ -1,0 +1,13 @@
+[2025-10-13T00:55:26.352Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:55:27.631Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:55:27.713Z] STEP: Adding multiple products to cart
+[2025-10-13T00:55:27.909Z] STEP: Navigating to cart page
+[2025-10-13T00:55:28.012Z] STEP: Removing Sauce Labs Bike Light from cart
+[2025-10-13T00:55:28.129Z] STEP: Verifying cart badge shows 2
+[2025-10-13T00:55:28.173Z] ASSERT: Cart badge shows 2 - ✓ PASS
+[2025-10-13T00:55:28.175Z] STEP: Verifying "Sauce Labs Backpack" is in cart
+[2025-10-13T00:55:28.686Z] ASSERT: Sauce Labs Backpack is in cart - ✓ PASS
+[2025-10-13T00:55:28.687Z] STEP: Verifying "Sauce Labs Bolt T-Shirt" is in cart
+[2025-10-13T00:55:29.204Z] ASSERT: Sauce Labs Bolt T-Shirt is in cart - ✓ PASS
+[2025-10-13T00:55:29.207Z] STEP: Verifying Sauce Labs Bike Light is not in cart
+[2025-10-13T00:55:29.244Z] ASSERT: Sauce Labs Bike Light not in cart - ✓ PASS

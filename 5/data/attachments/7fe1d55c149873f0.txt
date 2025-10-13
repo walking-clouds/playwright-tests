@@ -1,8 +1,0 @@
-[2025-10-13T00:48:08.980Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:48:09.994Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:48:10.084Z] STEP: Entering standard user credentials
-[2025-10-13T00:48:10.159Z] STEP: Clicking login button
-[2025-10-13T00:48:10.340Z] STEP: Verifying redirect to inventory page
-[2025-10-13T00:48:10.352Z] ASSERT: Redirect to inventory page - ✓ PASS
-[2025-10-13T00:48:10.359Z] STEP: Verifying products page title
-[2025-10-13T00:48:10.424Z] ASSERT: Products page title visible - ✓ PASS

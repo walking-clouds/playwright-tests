@@ -1,0 +1,10 @@
+[2025-10-13T00:57:34.524Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:57:35.751Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:57:35.785Z] STEP: Adding "Test.allTheThings() T-Shirt (Red)" to cart
+[2025-10-13T00:57:35.818Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:57:35.846Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T00:57:35.850Z] STEP: Navigating to cart page
+[2025-10-13T00:57:35.935Z] STEP: Verifying "Test.allTheThings() T-Shirt (Red)" is in cart
+[2025-10-13T00:57:36.452Z] ASSERT: Test.allTheThings() T-Shirt (Red) is in cart - ✓ PASS
+[2025-10-13T00:57:36.455Z] STEP: Verifying correct price for "Test.allTheThings() T-Shirt (Red)"
+[2025-10-13T00:57:36.464Z] ASSERT: Correct price for Test.allTheThings() T-Shirt (Red) - ✓ PASS

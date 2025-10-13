@@ -1,0 +1,14 @@
+[2025-10-13T00:57:47.529Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T00:57:48.346Z] STEP: Verifying login page is properly loaded
+[2025-10-13T00:57:48.407Z] STEP: Logging in with standard user
+[2025-10-13T00:57:48.662Z] STEP: Verifying redirect to inventory page
+[2025-10-13T00:57:48.696Z] ASSERT: Redirect to inventory page - ✓ PASS
+[2025-10-13T00:57:48.697Z] STEP: Adding all available products to cart
+[2025-10-13T00:57:50.280Z] STEP: Verifying cart badge shows all product count
+[2025-10-13T00:57:50.305Z] ASSERT: Cart badge shows 6 products - ✓ PASS
+[2025-10-13T00:57:50.306Z] STEP: Navigating to cart page
+[2025-10-13T00:57:50.395Z] STEP: Verifying all six products are listed in cart
+[2025-10-13T00:57:50.416Z] ASSERT: All 6 products listed in cart - ✓ PASS
+[2025-10-13T00:57:50.418Z] STEP: Completing checkout with valid information
+[2025-10-13T00:57:50.716Z] STEP: Verifying successful completion for all products
+[2025-10-13T00:57:50.754Z] ASSERT: Successful completion for all products - ✓ PASS

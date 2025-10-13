@@ -1,0 +1,10 @@
+[2025-10-13T00:58:07.040Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T00:58:07.998Z] STEP: Verifying login page is properly loaded
+[2025-10-13T00:58:08.105Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T00:58:08.769Z] STEP: Logging in with performance_glitch user
+[2025-10-13T00:58:13.924Z] STEP: Verifying redirect to inventory page
+[2025-10-13T00:58:13.953Z] ASSERT: Redirect to inventory page - ✓ PASS
+[2025-10-13T00:58:13.955Z] STEP: Adding "Sauce Labs Bolt T-Shirt" to cart
+[2025-10-13T00:58:14.206Z] STEP: Completing purchase process
+[2025-10-13T00:58:16.042Z] STEP: Verifying successful order completion
+[2025-10-13T00:58:16.061Z] ASSERT: Successful order completion - ✓ PASS
