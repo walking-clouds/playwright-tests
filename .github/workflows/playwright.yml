@@ -45,22 +45,44 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.project }}
+          path: allure-results/
+          retention-days: 30
+
       - name: Publish CTRF Report
         uses: ctrf-io/github-test-reporter@v1
         with:
           path: ctrf/*.json
 
-      - name: Build test report
+  publish-report:
+    needs: test
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all allure results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: allure-results-*
+          path: allure-results-combined
+          merge-multiple: true
+
+      - name: Build consolidated Allure report
         uses: simple-elf/allure-report-action@v1.7
-        if: always()
         with:
           gh_pages: gh-pages
           allure_history: allure-history
-          allure_results: build/allure-results
+          allure_results: allure-results-combined
 
-      - name: Publish test report
+      - name: Publish test report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
