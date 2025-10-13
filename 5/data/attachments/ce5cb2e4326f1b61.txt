@@ -1,0 +1,10 @@
+[2025-10-13T00:49:14.210Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:49:15.876Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:49:15.911Z] STEP: Adding all available products to cart
+[2025-10-13T00:49:17.471Z] STEP: Verifying cart badge shows total product count
+[2025-10-13T00:49:17.487Z] ASSERT: Cart badge shows total count - ✓ PASS
+[2025-10-13T00:49:17.488Z] STEP: Navigating to cart page
+[2025-10-13T00:49:17.622Z] STEP: Verifying all products are listed in cart
+[2025-10-13T00:49:17.665Z] ASSERT: All products listed in cart - ✓ PASS
+[2025-10-13T00:49:17.669Z] STEP: Verifying each product has quantity 1
+[2025-10-13T00:49:17.685Z] ASSERT: Each product has quantity 1 - ✓ PASS

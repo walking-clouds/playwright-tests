@@ -1,0 +1,10 @@
+[2025-10-13T00:48:04.721Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:48:05.876Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:48:05.904Z] STEP: Adding "Sauce Labs Bike Light" to cart
+[2025-10-13T00:48:05.937Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:48:05.947Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T00:48:05.948Z] STEP: Navigating to cart page
+[2025-10-13T00:48:05.990Z] STEP: Verifying "Sauce Labs Bike Light" is in cart
+[2025-10-13T00:48:06.520Z] ASSERT: Sauce Labs Bike Light is in cart - ✓ PASS
+[2025-10-13T00:48:06.531Z] STEP: Verifying correct price for "Sauce Labs Bike Light"
+[2025-10-13T00:48:06.546Z] ASSERT: Correct price for Sauce Labs Bike Light - ✓ PASS

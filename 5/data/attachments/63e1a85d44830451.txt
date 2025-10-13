@@ -1,0 +1,28 @@
+[2025-10-13T00:49:34.751Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T00:49:36.090Z] STEP: Verifying login page is properly loaded
+[2025-10-13T00:49:36.235Z] STEP: Logging in with standard user
+[2025-10-13T00:49:36.583Z] STEP: Verifying redirect to inventory page
+[2025-10-13T00:49:36.663Z] ASSERT: Redirect to inventory page - ✓ PASS
+[2025-10-13T00:49:36.666Z] STEP: Adding "Sauce Labs Backpack" to cart
+[2025-10-13T00:49:36.940Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:49:36.966Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T00:49:36.967Z] STEP: Navigating to cart page
+[2025-10-13T00:49:37.045Z] STEP: Verifying "Sauce Labs Backpack" is in cart
+[2025-10-13T00:49:37.556Z] ASSERT: Sauce Labs Backpack is in cart - ✓ PASS
+[2025-10-13T00:49:37.557Z] STEP: Verifying correct price for "Sauce Labs Backpack"
+[2025-10-13T00:49:37.566Z] ASSERT: Correct price for Sauce Labs Backpack - ✓ PASS
+[2025-10-13T00:49:37.568Z] STEP: Proceeding to checkout
+[2025-10-13T00:49:37.659Z] STEP: Filling checkout information with valid data
+[2025-10-13T00:49:37.798Z] STEP: Continuing to checkout overview
+[2025-10-13T00:49:37.894Z] STEP: Verifying order summary contains "Sauce Labs Backpack"
+[2025-10-13T00:49:37.914Z] ASSERT: Order summary contains Sauce Labs Backpack - ✓ PASS
+[2025-10-13T00:49:37.915Z] STEP: Verifying correct pricing calculations
+[2025-10-13T00:49:37.997Z] ASSERT: Pricing calculations are correct - ✓ PASS
+[2025-10-13T00:49:37.998Z] STEP: Finishing checkout process
+[2025-10-13T00:49:38.063Z] STEP: Verifying order completion confirmation
+[2025-10-13T00:49:38.128Z] ASSERT: Order completion confirmed - ✓ PASS
+[2025-10-13T00:49:38.130Z] STEP: Verifying message: Thank you for your order!
+[2025-10-13T00:49:38.174Z] ASSERT: Message contains: Thank you for your order! - ✓ PASS
+[2025-10-13T00:49:38.176Z] STEP: Returning to products page
+[2025-10-13T00:49:38.309Z] STEP: Verifying user is back on inventory page
+[2025-10-13T00:49:38.378Z] ASSERT: Back on inventory page - ✓ PASS

@@ -1,0 +1,9 @@
+[2025-10-13T00:48:12.010Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T00:48:13.057Z] STEP: Verifying login page elements are displayed
+[2025-10-13T00:48:13.111Z] STEP: Leaving username field empty
+[2025-10-13T00:48:13.124Z] STEP: Entering valid password
+[2025-10-13T00:48:13.161Z] STEP: Clicking login button
+[2025-10-13T00:48:13.229Z] STEP: Verifying username required error message
+[2025-10-13T00:48:13.248Z] ASSERT: Username required error message displayed - ✓ PASS
+[2025-10-13T00:48:13.250Z] STEP: Verifying user remains on login page
+[2025-10-13T00:48:13.276Z] ASSERT: User remains on login page - ✓ PASS

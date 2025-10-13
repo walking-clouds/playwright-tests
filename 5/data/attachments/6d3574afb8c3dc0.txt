@@ -1,0 +1,9 @@
+[2025-10-13T00:47:59.197Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T00:48:00.353Z] STEP: Verifying user is on inventory page
+[2025-10-13T00:48:00.371Z] STEP: Given: Adding "Sauce Labs Backpack" to cart
+[2025-10-13T00:48:00.401Z] STEP: Navigating to cart page
+[2025-10-13T00:48:00.460Z] STEP: Clicking Continue Shopping button
+[2025-10-13T00:48:00.490Z] STEP: Verifying user is back on inventory page
+[2025-10-13T00:48:00.507Z] ASSERT: Back on inventory page - ✓ PASS
+[2025-10-13T00:48:00.509Z] STEP: Verifying cart badge shows 1
+[2025-10-13T00:48:00.519Z] ASSERT: Cart badge shows 1 - ✓ PASS
