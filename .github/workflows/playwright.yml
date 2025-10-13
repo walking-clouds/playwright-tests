@@ -56,13 +56,15 @@ jobs:
       - name: Publish CTRF Report
         uses: ctrf-io/github-test-reporter@v1
         with:
-          path: ctrf/*.json
+          report-path: "./ctrf/*.json"
+          github-report: true
+        if: always()
 
   publish-report:
     needs: test
     runs-on: ubuntu-latest
     if: always()
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
