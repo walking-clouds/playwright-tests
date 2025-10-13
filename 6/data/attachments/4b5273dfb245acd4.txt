@@ -1,8 +1,0 @@
-[2025-10-13T00:57:37.509Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:57:38.566Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:57:38.612Z] STEP: Entering locked out user credentials
-[2025-10-13T00:57:38.655Z] STEP: Clicking login button
-[2025-10-13T00:57:38.792Z] STEP: Verifying locked out error message
-[2025-10-13T00:57:38.799Z] ASSERT: Locked out error message displayed - ✓ PASS
-[2025-10-13T00:57:38.801Z] STEP: Verifying user remains on login page
-[2025-10-13T00:57:38.820Z] ASSERT: User remains on login page - ✓ PASS

@@ -1,0 +1,10 @@
+[2025-10-13T01:08:29.385Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T01:08:31.199Z] STEP: Verifying user is on inventory page
+[2025-10-13T01:08:31.281Z] STEP: Adding "Sauce Labs Bolt T-Shirt" to cart
+[2025-10-13T01:08:31.365Z] STEP: Verifying cart badge shows 1
+[2025-10-13T01:08:31.392Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T01:08:31.393Z] STEP: Navigating to cart page
+[2025-10-13T01:08:31.478Z] STEP: Verifying "Sauce Labs Bolt T-Shirt" is in cart
+[2025-10-13T01:08:32.004Z] ASSERT: Sauce Labs Bolt T-Shirt is in cart - ✓ PASS
+[2025-10-13T01:08:32.006Z] STEP: Verifying correct price for "Sauce Labs Bolt T-Shirt"
+[2025-10-13T01:08:32.035Z] ASSERT: Correct price for Sauce Labs Bolt T-Shirt - ✓ PASS

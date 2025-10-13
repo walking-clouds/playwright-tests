@@ -1,0 +1,9 @@
+[2025-10-13T01:06:21.533Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T01:06:22.636Z] STEP: Verifying user is on inventory page
+[2025-10-13T01:06:22.655Z] STEP: Adding all available products to cart
+[2025-10-13T01:06:22.842Z] STEP: Navigating to cart page
+[2025-10-13T01:06:22.881Z] STEP: Removing all items from cart
+[2025-10-13T01:06:23.095Z] STEP: Verifying cart is empty
+[2025-10-13T01:06:23.099Z] ASSERT: Cart is empty - ✓ PASS
+[2025-10-13T01:06:23.102Z] STEP: Verifying no cart badge is visible
+[2025-10-13T01:06:28.109Z] ASSERT: No cart badge visible - ✓ PASS

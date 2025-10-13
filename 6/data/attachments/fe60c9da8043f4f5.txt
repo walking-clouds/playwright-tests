@@ -1,8 +1,0 @@
-[2025-10-13T00:57:36.727Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:57:37.633Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:57:37.791Z] STEP: Entering performance glitch user credentials
-[2025-10-13T00:57:37.907Z] STEP: Clicking login button
-[2025-10-13T00:57:43.113Z] STEP: Verifying redirect to inventory page (with patience)
-[2025-10-13T00:57:43.632Z] ASSERT: Redirect to inventory page (eventually) - ✓ PASS
-[2025-10-13T00:57:43.634Z] STEP: Verifying products page title
-[2025-10-13T00:57:43.690Z] ASSERT: Products page title visible - ✓ PASS

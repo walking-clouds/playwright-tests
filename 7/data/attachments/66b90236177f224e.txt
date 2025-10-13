@@ -1,0 +1,10 @@
+[2025-10-13T01:08:53.472Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T01:08:54.757Z] STEP: Verifying login page is properly loaded
+[2025-10-13T01:08:54.998Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T01:08:55.781Z] STEP: Logging in with standard user
+[2025-10-13T01:08:56.195Z] STEP: Verifying redirect to inventory page
+[2025-10-13T01:08:56.217Z] ASSERT: Redirect to inventory page - ✓ PASS
+[2025-10-13T01:08:56.218Z] STEP: Adding "Sauce Labs Backpack" to cart
+[2025-10-13T01:08:56.366Z] STEP: Completing purchase process
+[2025-10-13T01:08:58.313Z] STEP: Verifying successful order completion
+[2025-10-13T01:08:58.344Z] ASSERT: Successful order completion - ✓ PASS

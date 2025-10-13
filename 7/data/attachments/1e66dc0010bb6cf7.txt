@@ -1,0 +1,13 @@
+[2025-10-13T01:08:48.759Z] STEP: Navigating to SauceDemo login page
+[2025-10-13T01:08:50.132Z] STEP: Verifying login page is properly loaded
+[2025-10-13T01:08:50.366Z] STEP: Logging in with standard user
+[2025-10-13T01:08:51.212Z] STEP: Verifying redirect to inventory page
+[2025-10-13T01:08:51.222Z] ASSERT: Redirect to inventory page - ✓ PASS
+[2025-10-13T01:08:51.227Z] STEP: Sorting products by name A to Z
+[2025-10-13T01:08:51.406Z] STEP: Verifying products are sorted alphabetically
+[2025-10-13T01:08:51.505Z] ASSERT: Products sorted alphabetically (A to Z) - ✓ PASS
+[2025-10-13T01:08:51.507Z] STEP: Adding last product to cart (alphabetically last)
+[2025-10-13T01:08:52.116Z] STEP: Proceeding through complete purchase flow
+[2025-10-13T01:08:52.952Z] STEP: Clicking finish to complete purchase
+[2025-10-13T01:08:53.037Z] STEP: Verifying order confirmation
+[2025-10-13T01:08:53.064Z] ASSERT: Order confirmation visible - ✓ PASS

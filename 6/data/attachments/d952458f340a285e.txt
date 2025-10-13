@@ -1,5 +1,0 @@
-[2025-10-13T00:57:42.395Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:57:43.243Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:57:43.382Z] STEP: Logging in as performance_glitch user
-[2025-10-13T00:57:48.656Z] STEP: Verifying appropriate login result for performance_glitch user
-[2025-10-13T00:57:48.677Z] ASSERT: performance_glitch user login successful - ✓ PASS

@@ -1,5 +1,0 @@
-[2025-10-13T00:57:55.544Z] STEP: Navigating to SauceDemo login page
-[2025-10-13T00:57:56.724Z] STEP: Verifying login page elements are displayed
-[2025-10-13T00:57:56.839Z] STEP: Logging in as visual user
-[2025-10-13T00:57:57.037Z] STEP: Verifying appropriate login result for visual user
-[2025-10-13T00:57:57.088Z] ASSERT: visual user login successful - ✓ PASS

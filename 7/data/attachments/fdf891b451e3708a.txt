@@ -1,0 +1,10 @@
+[2025-10-13T01:06:19.277Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T01:06:20.820Z] STEP: Verifying user is on inventory page
+[2025-10-13T01:06:20.845Z] STEP: Adding "Sauce Labs Fleece Jacket" to cart
+[2025-10-13T01:06:21.124Z] STEP: Verifying cart badge shows 1
+[2025-10-13T01:06:21.164Z] ASSERT: Cart badge shows 1 - ✓ PASS
+[2025-10-13T01:06:21.165Z] STEP: Navigating to cart page
+[2025-10-13T01:06:21.248Z] STEP: Verifying "Sauce Labs Fleece Jacket" is in cart
+[2025-10-13T01:06:21.772Z] ASSERT: Sauce Labs Fleece Jacket is in cart - ✓ PASS
+[2025-10-13T01:06:21.773Z] STEP: Verifying correct price for "Sauce Labs Fleece Jacket"
+[2025-10-13T01:06:21.782Z] ASSERT: Correct price for Sauce Labs Fleece Jacket - ✓ PASS

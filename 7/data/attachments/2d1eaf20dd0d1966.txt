@@ -1,0 +1,11 @@
+[2025-10-13T01:06:25.395Z] STEP: Logging in as standard user and navigating to inventory
+[2025-10-13T01:06:26.936Z] STEP: Verifying user is on inventory page
+[2025-10-13T01:06:26.958Z] STEP: Noting details of Sauce Labs Backpack on inventory page
+[2025-10-13T01:06:26.973Z] STEP: Adding "Sauce Labs Backpack" to cart
+[2025-10-13T01:06:26.992Z] STEP: Navigating to cart page
+[2025-10-13T01:06:27.031Z] STEP: Verifying product details match between inventory and cart
+[2025-10-13T01:06:27.045Z] ASSERT: Product details match - ✓ PASS
+[2025-10-13T01:06:27.046Z] STEP: Verifying price is identical
+[2025-10-13T01:06:27.053Z] ASSERT: Price is identical - ✓ PASS
+[2025-10-13T01:06:27.054Z] STEP: Verifying description is identical
+[2025-10-13T01:06:27.061Z] ASSERT: Description is identical - ✓ PASS
